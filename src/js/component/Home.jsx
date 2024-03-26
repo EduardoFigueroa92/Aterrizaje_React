@@ -10,9 +10,11 @@ import Card from "./Card";
 //create your first component
 const Home = () => {
 	return (
-		<></>
-
-	//);
-//};
-
-//export default Home;
+		<>
+		<Navbar/>
+		<Jumbotron/>
+		<Card/>	
+		</>
+	);
+};
+export default Home;
