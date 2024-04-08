@@ -1,20 +1,25 @@
 import React from "react";
-
-//include images into your bundle
+import ReactDOM from 'react-dom';
 
 import Navbar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
 
 
-//create your first component
 const Home = () => {
-	return (
-		<>
-		<Navbar/>
-		<Jumbotron/>
-		<Card/>	
-		</>
-	);
-};
+    return(
+        <>
+        <Navbar/>
+
+        <div className="container">
+            <Jumbotron/>
+        </div>
+
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>    
+        </>
+    );
+}
 export default Home;
